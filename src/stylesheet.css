@@ -1,0 +1,45 @@
+body{
+  background-color: #BBA584;
+  
+};
+
+#header{
+  display: flex;
+  margin: 0
+}
+
+#nav{
+  margin-left: 39%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+
+}
+
+#content{
+  padding-top: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav > button{
+  border: none;
+  background: none;
+  font-size: 25px;
+  margin: 25px;
+}
+
+nav > button:hover{
+  color: #523d52;
+}
+
+#title{
+  font-size: 25px;
+  margin-bottom: 25px;
+  border: thin dashed #223030;
+  padding: 15px;
+  width: 50%;
+}
+
